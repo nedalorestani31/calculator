@@ -17,7 +17,7 @@ class Calculator extends React.Component {
     }
 
     handleclear = () => {
-        this.setState({ inputValue: []});
+        this.setState({ inputValue: ''});
     }
 
     render() {
